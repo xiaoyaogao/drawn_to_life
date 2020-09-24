@@ -16,3 +16,4 @@ that can be easily recognizable as a black and white image.
 The preset image files are not our own. Due to copyright law, do not attempt 
 to commercialize the drawings of the robot though the robot appreciates your
 approval of its life's work.
+
