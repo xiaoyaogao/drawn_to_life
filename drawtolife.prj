@@ -1,0 +1,71 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3214005802" file="C:\MECH MATLAB\Robotics\drawn_to_virtual_life\drawtolife.prj" location="C:\MECH MATLAB\Robotics\drawn_to_virtual_life" name="drawtolife" target="target.mlapps" target-name="Package App">
+    <param.appname>drawtolife</param.appname>
+    <param.authnamewatermark>MECH 498 Drawn to Life</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Simulation of RRP Drawing Robot</param.summary>
+    <param.description>This robot can draw the outlines of most high contrast jpg/png images. Use the GUI to upload or choose the reference picture file.</param.description>
+    <param.screenshot>C:\Users\xgao1\AppData\Local\Temp\tpa968a20a_623a_41b6_963b_2c7bdb678d17.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\MECH MATLAB\Robotics</param.output>
+    <param.guid>5e60402e-dc9c-4af5-8e87-a295e21bb7cd</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\drawtolife.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\dhtf.m</file>
+      <file>${PROJECT_ROOT}\drawDTL.m</file>
+      <file>${PROJECT_ROOT}\drawntolifeFK.m</file>
+      <file>${PROJECT_ROOT}\drawntolifeIK.m</file>
+      <file>${PROJECT_ROOT}\drawntolifeInit.m</file>
+      <file>${PROJECT_ROOT}\dtlDraw3D.m</file>
+      <file>${PROJECT_ROOT}\get_image_path.m</file>
+      <file>${PROJECT_ROOT}\setDTL.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\images</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\MECH MATLAB" name="Robotics" optional="false">C:\MECH MATLAB\Robotics</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
